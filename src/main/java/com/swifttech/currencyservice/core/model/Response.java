@@ -1,4 +1,4 @@
-package com.switftech.SchedulerService.core.model;
+package com.swifttech.currencyservice.core.model;
 
 import com.fasterxml.jackson.annotation.JsonIgnore;
 import lombok.Data;

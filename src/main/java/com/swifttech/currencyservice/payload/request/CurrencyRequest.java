@@ -1,2 +1,13 @@
-package com.swifttech.currencyservice.payload.request;public class CurrencyRequest {
+package com.swifttech.currencyservice.payload.request;
+
+import lombok.Getter;
+import lombok.Setter;
+
+@Getter
+@Setter
+public class CurrencyRequest {
+
+ private double amount;
+ private String fromCurrency;
+ private String toCurrency;
 }

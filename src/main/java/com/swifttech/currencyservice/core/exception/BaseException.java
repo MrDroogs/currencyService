@@ -1,4 +1,4 @@
-package com.switftech.SchedulerService.core.exception;
+package com.swifttech.currencyservice.core.exception;
 
 import org.springframework.http.HttpStatus;
 

@@ -1,4 +1,4 @@
-package com.switftech.SchedulerService.core.records;
+package com.swifttech.currencyservice.core.records;
 
 public record CodeRecord(String code, String message_en) {
 

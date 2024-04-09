@@ -1,10 +1,10 @@
-package com.switftech.SchedulerService.core.builder;
+package com.swifttech.currencyservice.core.builder;
 
 
-import com.switftech.SchedulerService.core.exception.RemitException;
-import com.switftech.SchedulerService.core.model.ApiError;
-import com.switftech.SchedulerService.core.model.ApiResponse;
-import com.switftech.SchedulerService.core.util.ExceptionUtil;
+import com.swifttech.currencyservice.core.exception.RemitException;
+import com.swifttech.currencyservice.core.model.ApiError;
+import com.swifttech.currencyservice.core.model.ApiResponse;
+import com.swifttech.currencyservice.core.util.ExceptionUtil;
 
 public class ServiceResponseBuilder {
 

@@ -1,9 +1,10 @@
-package com.switftech.SchedulerService.core.config;
+package com.swifttech.currencyservice.core.config;
 
 
 
-import com.switftech.SchedulerService.core.base.Codes;
-import com.switftech.SchedulerService.core.records.CodeRecord;
+
+import com.swifttech.currencyservice.core.base.Codes;
+import com.swifttech.currencyservice.core.records.CodeRecord;
 import jakarta.annotation.PostConstruct;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.context.annotation.Bean;
@@ -16,7 +17,7 @@ import java.util.HashMap;
 import java.util.Map;
 import java.util.Properties;
 
-import static com.switftech.SchedulerService.core.constant.AppConstant.CODE_NOT_REGISTERED_MESSAGE;
+import static com.swifttech.currencyservice.core.constant.AppConstant.CODE_NOT_REGISTERED_MESSAGE;
 
 
 @Configuration

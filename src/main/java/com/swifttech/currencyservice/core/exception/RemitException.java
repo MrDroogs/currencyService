@@ -1,8 +1,9 @@
-package com.switftech.SchedulerService.core.exception;
+package com.swifttech.currencyservice.core.exception;
 
 
 
-import com.switftech.SchedulerService.core.records.CodeRecord;
+
+import com.swifttech.currencyservice.core.records.CodeRecord;
 import lombok.Setter;
 import org.springframework.http.HttpStatus;
 

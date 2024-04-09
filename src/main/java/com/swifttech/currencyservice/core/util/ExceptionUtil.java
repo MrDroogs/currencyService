@@ -1,4 +1,4 @@
-package com.switftech.SchedulerService.core.util;
+package com.swifttech.currencyservice.core.util;
 
 import lombok.experimental.UtilityClass;
 

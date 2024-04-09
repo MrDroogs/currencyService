@@ -1,27 +1,24 @@
 package com.swifttech.currencyservice.controller;
 
+import com.swifttech.currencyservice.payload.request.CurrencyRequest;
 import com.swifttech.currencyservice.service.ExchangeRateService;
 import lombok.RequiredArgsConstructor;
-import org.springframework.web.bind.annotation.GetMapping;
-import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RequestParam;
-import org.springframework.web.bind.annotation.RestController;
-import reactor.core.publisher.Mono;
+import org.springframework.web.bind.annotation.*;
 
 @RestController
 @RequestMapping("/currency")
 @RequiredArgsConstructor
-public class ApiController {
+public class CurrencyExchangeController {
 
 
+    private final ExchangeRateService service;
 
-        private final ExchangeRateService exchangeRateService;
+
+    @PostMapping("/convert")
+    public void convertCurrency(@RequestBody CurrencyRequest currencyRequest)  {
+        service.exchangeMoney(currencyRequest);
 
 
-        @GetMapping("/convert")
-        public Mono<Double> convertCurrency(@RequestParam String from, @RequestParam String to, @RequestParam double amount) {
-//            return currencyExchangeService.convertCurrency(from, to, amount);
-        }
     }
-
 }
+

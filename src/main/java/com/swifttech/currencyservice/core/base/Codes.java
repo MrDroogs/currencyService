@@ -1,7 +1,8 @@
-package com.switftech.SchedulerService.core.base;
+package com.swifttech.currencyservice.core.base;
 
 
-import com.switftech.SchedulerService.core.records.CodeRecord;
+
+import com.swifttech.currencyservice.core.records.CodeRecord;
 import org.springframework.stereotype.Component;
 
 @FunctionalInterface

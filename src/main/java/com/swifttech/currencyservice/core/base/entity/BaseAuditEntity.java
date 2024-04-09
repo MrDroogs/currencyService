@@ -1,4 +1,4 @@
-package com.switftech.SchedulerService.core.base.entity;
+package com.swifttech.currencyservice.core.base.entity;
 
 import jakarta.persistence.Column;
 import jakarta.persistence.EntityListeners;

@@ -1,11 +1,12 @@
-package com.switftech.SchedulerService.core.exception.handler;
+package com.swifttech.currencyservice.core.exception.handler;
 
 
 
-import com.switftech.SchedulerService.core.builder.ServiceResponseBuilder;
-import com.switftech.SchedulerService.core.exception.RemitException;
-import com.switftech.SchedulerService.core.model.ApiResponse;
-import com.switftech.SchedulerService.core.model.Response;
+
+import com.swifttech.currencyservice.core.builder.ServiceResponseBuilder;
+import com.swifttech.currencyservice.core.exception.RemitException;
+import com.swifttech.currencyservice.core.model.ApiResponse;
+import com.swifttech.currencyservice.core.model.Response;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.context.support.DefaultMessageSourceResolvable;
 import org.springframework.core.Ordered;

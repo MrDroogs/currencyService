@@ -1,4 +1,4 @@
-package com.switftech.SchedulerService.core.constant;
+package com.swifttech.currencyservice.core.constant;
 
 public final class AppConstant {
 
